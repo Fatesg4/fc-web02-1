@@ -1,0 +1,11 @@
+package com.francisco.edivan.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.francisco.edivan.entidade.Cliente;
+
+@Repository
+public interface ClienteDao extends JpaRepository<Cliente, Long>{
+
+}
